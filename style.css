@@ -24,7 +24,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-content: center;
-    padding: 30px 7%;
+    padding: 30px 5%;
 }
 
 .nav-links li {
