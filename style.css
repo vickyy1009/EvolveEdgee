@@ -1,0 +1,597 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Teko:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #D2D5CC;
+    font-family: "Teko", nunito serif;;
+}
+
+/* ########### nav bar ############# */
+
+.container {
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.navbars{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 30px 8%;
+}
+
+.nav-links li {
+    list-style: none;
+    font-size: 28px;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: inline-block;
+    padding-left: 30px;
+    position: relative;
+}
+
+.navbars a{
+    text-decoration: none;
+    color: #000;
+}
+
+.navbars .logo {
+    font-size: 30px;
+    color: #000;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-top:3px;
+    cursor: pointer;
+}
+
+.logo .fa-brands {
+    padding-right: 10px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+    padding: 5px 10px;
+}
+.nav-links li a:hover{
+    background-color: #BCBFB4;
+    border-radius: 5px;
+}
+
+/* #############content############## */
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 7%;
+}
+
+.content img{
+    width: 450px;
+    height: 200px;
+    margin-bottom: 40px;
+    object-fit: cover;
+    padding-right: 10px;
+}
+
+.caps{
+    font-size: 300px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    line-height: 1cap;
+    
+}
+
+.second-line{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 12%;
+}
+
+.second-line .para{
+    font-size: 32px;
+    font-weight: 200;
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+
+.second-line li,a{
+    list-style: none;
+    display: inline-block;
+    padding-right: 15px;
+    /* text-decoration: none; */
+    color: #000;
+    padding-top: 15px;
+}
+/* #########subscription########## */
+.subscription{
+    padding: 8% 10%; 
+}
+
+.subscription ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0%;
+    border-top: 1px solid #BCBFB4;
+    border-bottom: 1px solid #BCBFB4;
+
+}
+
+.subscription li {
+    list-style: none;
+    font-size: 28px;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: inline-block;
+    padding-left: 100px;
+}
+
+.subscription .fa-brands , .fa-solid {
+    padding-right: 10px;
+}
+
+/* ############ about ############## */
+.about p{
+    text-align: center;
+    line-height: 1.5;
+    font-size: 45px;
+    padding: 30px 15%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+
+.circle ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20% 0 ;
+}
+
+.circle li{
+    display: inline-block;
+    border: 1px solid #BCBFB4;
+    border-radius: 60% 40%;
+    padding: 20px 40px ;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.radius ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 20% 0;
+}
+
+.radius li{
+    display: inline-block;
+    padding: 10px 40px 0 0;
+    font-size: 25px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.about .abt{
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+}
+
+.abt a{
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #536920;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: 0.3s;
+
+}
+
+.abt a:hover{
+    background-color: #000;
+}
+
+/* ############### services ############### */
+
+.services{
+    padding: 50px 8%;
+}
+
+.top{
+    text-align: center;
+    font-size: 100px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 20px;
+
+}
+
+.design li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.design .fa-solid {
+    padding-right: 15px;
+    font-size: 30px;
+}
+
+.design a {
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.design li {
+    margin: 30px;
+    list-style: none;
+    padding: 15px;
+    border: 1px solid #BCBFB4;
+}
+
+.fa-regular {
+    color: #536920;
+    font-size: 30px;
+    padding-left: 15px;
+}
+
+.design .click a{
+    font-size: 30px;
+    font-weight: 100;
+
+}
+
+/* #################### our work ###############  */
+
+.work{
+    padding: 30px 10%;
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text h1{
+    text-align: center;
+    font-size: 100px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.text a{
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #536920;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.text a:hover{
+    background-color: #000;
+}
+
+.pic li{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px ;
+}
+
+.p1{
+    background-image: url(./assets/img2.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 640px;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    object-fit: cover;
+    
+}
+.p2{
+    background-image: url(./assets/img3.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 640px;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    object-fit: cover;
+    
+}
+.p3{
+    background-image: url(./assets/img5.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 640px;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    object-fit: cover;
+    
+}
+.p4{
+    background-image: url(./assets/img4.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 640px;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    object-fit: cover;
+    
+}
+
+.pic p,h3{
+    color: white;
+    padding: 35px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.pic h3{
+    font-size: 38px;
+}
+
+.pic p{
+    font-size: 22px;
+}
+
+/* #############awards########### */
+
+.awards {
+    padding: 50px 10%;
+}
+
+.awards .text1 h1{
+    text-align: center;
+    font-size: 100px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.layout{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.layout li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    border: 1px solid #BCBFB4;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.layout .right{
+    padding-left: 120px;
+    
+}
+
+.layout h4{
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.layout p{
+    font-size: 20px;
+    font-weight: 200;
+    text-transform: capitalize;
+
+}
+
+/* ###############testimonials############ */
+.testimonials{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0 10%;
+    flex-direction: column;
+}
+
+.testimonials p{
+    line-height: 1.5;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-weight: 200;
+    margin: 0 10%;
+}
+
+.testimonials img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 30px;
+}
+
+.details h4{
+    font-size: 23px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.details p{
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+/* ################latest insight############# */
+.insight{
+    padding: 50px 10%;
+}
+
+.insight .late{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.late img{
+    width: 450px;
+    height: 300px;
+    object-fit: cover;
+    padding-right: 20px;
+}
+
+.late h4{
+    font-size: 23px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.late p{
+    text-transform: capitalize;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+/* ############lets do it############## */
+.work-together{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 30px 10%;
+}
+
+.work-together .row-1, .row-2{
+    font-size: 100px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.work-together .column{
+    padding-left: 30%;
+}
+
+.work-together .row-2{
+    padding-left: 15%;
+}
+
+.row-2 .fa-arrow-up-right-from-square{
+    padding-right: 15px;
+}
+
+/* ###############footer############# */
+footer{
+    width: auto;
+    height: auto ;
+    background-color: #000;
+    padding: 10px 50px 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 50px 0px ;
+    margin: 20px;
+}
+
+.header .logo{
+    color: white;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.header .icons li{
+    list-style: none;
+    color: white;
+    display: inline-block;
+    padding-right: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.header .link li{
+    text-transform: capitalize;
+    display: inline-block;
+    padding-left: 50px;
+    font-size: 22px;
+}
+
+.header .link a{
+    color: #D2D5CC;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+.header2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header2 li{
+    text-transform: capitalize;
+    display: inline-block;
+    padding-left: 50px;
+}
+
+.header2  a{
+    color: #D2D5CC;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 100;
+    padding-right: 20px;
+    font-size: 22px;
+}
+
+.down{
+    border-top: 0.5px solid #BCBFB4;
+    margin: 5% 5%;
+}
+
+.down .doneby{
+    color: #D2D5CC;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    font-size: 30px;
+    padding: 30px;
+    font-weight: 200;
+}
